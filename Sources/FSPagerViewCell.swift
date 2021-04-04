@@ -98,7 +98,7 @@ open class FSPagerViewCell: UICollectionViewCell {
         commonInit()
     }
     
-    func commonInit() {
+    public func commonInit() {
         self.contentView.backgroundColor = UIColor.clear
         self.backgroundColor = UIColor.clear
         self.contentView.layer.shadowColor = UIColor.black.cgColor
